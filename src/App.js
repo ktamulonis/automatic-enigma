@@ -1,5 +1,6 @@
-import React from 'react';
-import './App.css';
+import React from 'react'
+import './App.css'
+import ThoughtsContainer from './components/ThoughtsContainer'
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <header className="App-header">
         <h1>Thoughtsort</h1>
       </header>
+      <ThoughtsContainer />
     </div>
   );
 }
